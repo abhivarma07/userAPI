@@ -1,12 +1,15 @@
 import React from "react"
 
-import { Text, View , StyleSheet} from "react-native"
+import Card from "./card"
 
-const User = () => {
+import { Text, View , StyleSheet, Image} from "react-native"
+
+
+const User = ({details}) => {
     return(
-        <View>
-            <Text>I am a random User</Text>
-        </View>
+        <>
+           <Card details = {details} />
+        </>
     )
 }
 

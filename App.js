@@ -56,7 +56,7 @@ const App = () => {
       <NativeBaseProvider styles = {styles.container}>
         <View style = {styles.container}>
           <View style = {styles.container}>
-            <User/>
+            <User details = {details} />
             <Button
             size = "md"
             style = {styles.button}
